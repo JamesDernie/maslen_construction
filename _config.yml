@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-  html-pages:
+  html_pages:
     title: html_pages
     output: true
 email: your-email@example.com

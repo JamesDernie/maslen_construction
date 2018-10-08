@@ -1,0 +1,18 @@
+- name: Wooden Furniture
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-1.png
+- name: Home Renovation
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-2.png
+- name: Doors & Windows
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-3.png
+- name: Decks & Porches
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-4.png
+- name: General Capentry
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-5.png
+- name: Wooden Flooring
+  description: Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply.
+  icon: service-icon-1-6.png

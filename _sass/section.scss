@@ -1,0 +1,29 @@
+/*==============================================
+Section variables
+==============================================*/
+
+.index-section {
+  padding: 75px 0;
+}
+
+.section-header {
+  font-weight: 600;
+}
+.section-header::after {
+  content: '';
+  width: 40px;
+  height: 3px;
+  background: $porsche;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.section-img {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .index-section {
+    padding: 90px 0;
+  }
+}

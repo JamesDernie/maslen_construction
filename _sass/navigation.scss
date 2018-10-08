@@ -1,0 +1,57 @@
+/*==============================================
+Main Navigation Menu
+==============================================*/
+
+.navbar {
+
+  height: 50px;
+
+  a{
+    color: white;
+  }
+
+}
+
+// Navigation Links
+.navbar-collapse {
+  flex-direction: row-reverse;
+  padding-top: 15px;
+}
+.navbar-collapse a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.navbar-collapse a:last-child {
+  border-bottom: none;
+}
+
+// Toggler button
+.navbar-toggler {
+  padding-top: 0.75em;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+
+// Toggler Icon
+.navbar-toggler-icon {
+  color: white;
+  font-size: 20px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+

@@ -1,0 +1,64 @@
+/*==============================================
+Index Page Header
+==============================================*/
+
+header {
+  position: relative;
+  height: 85vh;
+  width: 100%;
+}
+
+.hero-filter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 2;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: -15px;
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  header {
+    height: 90vh;
+  }
+
+  .hero-text {
+    margin-left: 15px;
+    text-align: left;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
